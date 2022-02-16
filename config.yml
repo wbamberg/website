@@ -1,0 +1,21 @@
+baseURL: https://inspiring-snyder-9401af.netlify.app/
+languageCode: en-us
+title: Open Web Docs
+theme: PaperMod
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+params:
+    homeInfoParams:
+        title: Open Web Docs
+        content: >
+            We are a community of web developers, standards makers, and technology companies that regard web platform documentation as critical digital infrastructure, and we work cooperatively to ensure its long-term health.
+
+
+            We are funded by corporate and individual donations, and employ technical writers to create and maintain web platform documentation.
+    socialIcons:
+        - name: github
+          url: "https://github.com/openwebdocs"
+        - name: twitter
+          url: "https://twitter.com/OpenWebDocs"

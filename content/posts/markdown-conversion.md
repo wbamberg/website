@@ -37,7 +37,11 @@ In practice, this makes writers concentrate so much on the markup that it's hard
 Also, authors were faced with the result of 15 years of people pasting rich content into the WYSIWYG editor, resulting in source like this:
 
 ```
-<pre class="brush: js"><span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nx">driver</span><span class="p">.</span><span class="nx">findElement</span><span class="p">(</span><span class="nx">By</span><span class="p">.</span><span class="nx">id</span><span class="p">(</span><span class="s1">'myElementId'</span><span class="p">));</span></pre>
+<pre class="brush: js"><span class="kd">const</span> <span class="nx">element</span>
+<span class="o">=</span> <span class="nx">driver</span><span class="p">.</span>
+<span class="nx">findElement</span><span class="p">(</span><span class="nx">By</span>
+<span class="p">.</span><span class="nx">id</span><span class="p">(</span>
+<span class="s1">'myElementId'</span><span class="p">));</span></pre>
 ```
 
 It was clear that for the long-term health of MDN, we needed a better authoring experience than this, both for volunteer contributors and for full-time staff writers.
@@ -136,7 +140,11 @@ now [looks like this](https://github.com/mdn/content/blob/43e6201e3ce12498ddeb4e
 The code sample quoted above that used to look like this:
 
 ```
-<pre class="brush: js"><span class="kd">const</span> <span class="nx">element</span> <span class="o">=</span> <span class="nx">driver</span><span class="p">.</span><span class="nx">findElement</span><span class="p">(</span><span class="nx">By</span><span class="p">.</span><span class="nx">id</span><span class="p">(</span><span class="s1">'myElementId'</span><span class="p">));</span></pre>
+<pre class="brush: js"><span class="kd">const</span> <span class="nx">element</span>
+<span class="o">=</span> <span class="nx">driver</span><span class="p">.</span>
+<span class="nx">findElement</span><span class="p">(</span><span class="nx">By</span>
+<span class="p">.</span><span class="nx">id</span><span class="p">(</span>
+<span class="s1">'myElementId'</span><span class="p">));</span></pre>
 ```
 
 now [looks like this](https://github.com/mdn/content/blob/43e6201e3ce12498ddeb4ec47b68b37c41d66430/files/en-us/learn/tools_and_testing/cross_browser_testing/your_own_automation_environment/index.md?plain=1#L294-L296):
