@@ -8,13 +8,13 @@ ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-In 2021 the Open Web Docs team, with help from Mozilla, the W3C, and the wider web docs community, converted the authoring format for MDN Web Docs  - all 11,000 pages of it - from HTML to Markdown. In this post we'll talk about why we did it, how we did it, and how it turned out.
+In 2021, the Open Web Docs team, with help from Mozilla, the W3C, and the wider web docs community, converted the authoring format for MDN Web Docs  - all 11,000 pages of it - from HTML to Markdown. In this post we'll talk about why we did it, how we did it, and how it turned out.
 
 ## HTML soup
 
-Before 2020 MDN was a Wiki, and contributors edited pages using a web-based WYSIWYG HTML editor. This made it easy to make casual contributions: people could edit text and apply simple formatting, like **bold** or `code`, without having to edit the underlying HTML. But a WYSIWYG editor is not well-suited to more complex edits, and authors often had to edit the underlying HTML source directly. Also, because the underlying source was hidden by default, HTML cruft, like `<span id="486uw3y3">` crept into the source, often from authors pasting HTML from another rich editing environment into the MDN WYSIWYG editor.
+Before 2020, MDN was a Wiki, and contributors edited pages using a web-based WYSIWYG HTML editor. This made it easy to make casual contributions: people could edit text and apply simple formatting, like **bold** or `code`, without having to edit the underlying HTML. But a WYSIWYG editor is not well-suited to more complex edits, and authors often had to edit the underlying HTML source directly. Also, because the underlying source was hidden by default, HTML cruft, like `<span id="486uw3y3">` crept into the source, often from authors pasting HTML from another rich editing environment into the MDN WYSIWYG editor.
 
-In 2020 MDN replaced the old Wiki with a new platform in which the source for the docs was stored in a GitHub repository as a collection of HTML files, and this was built into web pages by the [Yari](https://github.com/mdn/yari/) code. This had several major advantages, but it meant that the old WYSIWYG editor was no more. Instead, all authors had to edit MDN pages as raw HTML documents.
+In 2020, MDN replaced the old Wiki with a new platform in which the source for the docs was stored in a GitHub repository as a collection of HTML files, and this was built into web pages by the [Yari](https://github.com/mdn/yari/) code. This had several major advantages, but it meant that the old WYSIWYG editor was no more. Instead, all authors had to edit MDN pages as raw HTML documents.
 
 For technical writers, HTML is hard to write and hard to review. It's easy to make mistakes like missing closing tags or getting the nesting wrong, and it's hard for reviewers to spot these kinds of mistakes. Also, we had to escape HTML tags in any example code we wrote, which is difficult and error-prone. For example, here's a code sample from the page on [`<dl>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl):
 
@@ -71,7 +71,7 @@ This pushed us towards a minimalist approach, in which we would:
 
 For the baseline we chose [GitHub-Flavored Markdown](https://github.github.com/gfm/) (GFM). This is well-supported and has a good spec. It is a superset of [CommonMark](https://spec.commonmark.org/), and just adds a few extensions. We might have chosen CommonMark as a baseline, except GFM supports tables, which we knew we needed.
 
-The next step was to figure out what to do about features in the MDN source files that weren't supported in GFM. For each feature like this there are three options:
+The next step was to figure out what to do about features in the MDN source files that weren't supported in GFM. For each feature like this, there are three options:
 
 1. Stop using the feature: find another way to do the thing we want. For example, we had some markup that would present items in multicolumn layout, and [we decided that we could live without this](https://github.com/mdn/content/discussions/7263). Making decisions like this helps simplify the MDN authoring experience, which we think is a good thing!
 
@@ -95,7 +95,7 @@ We also needed an update to the Yari platform to perform the reverse operation, 
 
 Once we had the `h2m` conversion tool, we could start preparing the content for conversion. When we run the conversion tool over a set of pages, it also produces a report telling us which HTML features were unconvertible. We could then go through the content, making any changes needed to make the content Markdown-convertible.
 
-Once we were happy with the conversion report, we'd create and review a PR to convert the pages. The conversion was made in two Git commits: one to rename the files from "index.html" to "index.md", and another to replace the file contents. This helps Git understand that we are changing an existing file, so we preserve its change history.
+Once we were happy with the conversion report, we'd create and review a PR to convert the pages. The conversion was made in two Git commits: one to rename the files from "`index.html`" to "`index.md`", and another to replace the file contents. This helps Git understand that we are changing an existing file, so we preserve its change history.
 
 With over 11,000 pages on MDN, this was a big task. First we tested the water with the documentation for the JavaScript [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) object. That seemed to go fine, so we followed up with all the [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) documentation (about 1000 pages) and then all the [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) documentation (also about 1000 pages). After that we converted the [Web API](https://developer.mozilla.org/en-US/docs/Web/API) documentation, which was more than 6000 pages, and was a scary PR to merge.
 
@@ -155,7 +155,7 @@ const element = driver.findElement(By.id('myElementId'));
 ```
 ````
 
-But it's not about individual blocks of content. Overall, writing and reviewing is dramatically easier than it used to be. The beauty of Markdown, as a writer, is that it lets you concentrate on expressing concepts and hardly thinking about syntax at all.
+But it's not about individual blocks of content. Overall, writing and reviewing is dramatically easier than it used to be. The beauty of Markdown, to you as a writer, is that it lets you concentrate on expressing concepts and hardly thinking about syntax at all.
 
 At Open Web Docs, we always have to consider which projects to take on next. In particular we have to choose between projects to write new documentation, projects to improve existing documentation, and projects to improve documentation infrastructure. They're all important, but infrastructure projects like Markdown conversion sometimes seem hard to justify because they don't provide an immediate benefit to our readers. The success of the Markdown project was that the rendered pages look (mostly) exactly the same!
 
