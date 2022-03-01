@@ -6,6 +6,11 @@ languages:
     en:
         languageName: "English"
         weight: 1
+        menu:
+            main:
+                - name: About us
+                  url: about
+                  weight: 5
 params:
     homeInfoParams:
         title: Open Web Docs
