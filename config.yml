@@ -9,7 +9,7 @@ languages:
         menu:
             main:
                 - name: About us
-                  url: about
+                  url: /about
                   weight: 5
 params:
     homeInfoParams:
