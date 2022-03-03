@@ -1,0 +1,3 @@
+.footer {
+    padding: calc((var(--footer-height) - 100%) / 2) var(--gap);
+}
