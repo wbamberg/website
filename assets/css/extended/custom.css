@@ -1,0 +1,6 @@
+/*
+Footer content is 2 lines, so height should be calculated as `(var(--gap) * 2`
+*/
+.footer {
+    padding: calc((var(--footer-height) - (var(--gap) * 2)) / 2) var(--gap);
+}
