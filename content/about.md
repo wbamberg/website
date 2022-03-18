@@ -26,6 +26,14 @@ We use our funding to employ technical writers who work on web documentation pro
 
 Our Governing Committee administers the financial sponsorships made via [Open Collective](https://opencollective.com/open-web-docs), and explores strategic partnerships and needs for web documentation projects. Governing Committee members are representatives of organizations that have made substantial financial contributions to OWD, and include one representative from staff.
 
+- Coil
+- Google
+- Meta
+- Microsoft
+- Daniel Appelquist (associate member, Samsung Internet employee)
+- Dominique Hazael-Massieux (associate member, W3C employee)
+- Jory Burson (associate member, OpenJS Foundation / Linux Foundation)
+
 ### Steering Committee
 
 Our Steering Committee develops and implements shared public roadmaps for key documentation priorities, and facilitates community involvement and execution of those priorities. Steering Committee members are invited on the basis of their expertise and perspective, and represent a mix of individual developers, standards developing organizations, non-sponsoring organizations, and other key stakeholders.
