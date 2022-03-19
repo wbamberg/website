@@ -9,7 +9,7 @@ languages:
         menu:
             main:
                 - name: 2021 Impact Report
-                  url: /2021-impact-report
+                  url: /annual-reports/2021
                   weight: 5
                 - name: Blog
                   url: /archives
