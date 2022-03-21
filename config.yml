@@ -8,9 +8,21 @@ languages:
         weight: 1
         menu:
             main:
-                - name: About us
-                  url: /about
+                - name: 2021 Impact Report
+                  url: /annual-reports/2021
                   weight: 5
+                - name: Blog
+                  url: /archives
+                  weight: 10
+                - name: About Us
+                  url: /about
+                  weight: 15
+                - name: Get Involved
+                  url: /get-involved
+                  weight: 20
+                - name: Donate
+                  url: https://opencollective.com/open-web-docs
+                  weight: 25
 params:
     homeInfoParams:
         title: Open Web Docs
