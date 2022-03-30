@@ -3,7 +3,7 @@ title: "Get Involved"
 url: "/get-involved"
 summary: How to get involved with Open Web Docs
 ---
-If you're interesting in helping to ensure that the Web has high-quality accessible documentation, available to everyone, here are some of the  ways you can help us out.
+If you're interested in helping to ensure that the Web has high-quality accessible documentation, available to everyone, here are some of the ways you can help us out.
 
 ## Contribute to MDN Web Docs
 
