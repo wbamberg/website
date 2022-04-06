@@ -20,9 +20,12 @@ languages:
                 - name: Get Involved
                   url: /get-involved
                   weight: 20
+                - name: Sponsors
+                  url: /sponsors
+                  weight: 25
                 - name: Donate
                   url: https://opencollective.com/open-web-docs
-                  weight: 25
+                  weight: 30
 params:
     homeInfoParams:
         title: Open Web Docs

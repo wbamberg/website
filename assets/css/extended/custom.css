@@ -4,3 +4,23 @@ Footer content is 2 lines, so height should be calculated as `(var(--gap) * 2`
 .footer {
     padding: calc((var(--footer-height) - (var(--gap) * 2)) / 2) var(--gap);
 }
+
+/*
+Special styling for sponsor name+logo
+*/
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.sponsor .logo {
+  height: 2rem;
+  display: inline-block;
+  margin: .3rem 0;
+}
+
+.sponsor .name {
+  margin: 0 0 0 1rem;
+  vertical-align: top;
+}
