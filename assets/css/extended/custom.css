@@ -8,14 +8,19 @@ Footer content is 2 lines, so height should be calculated as `(var(--gap) * 2`
 /*
 Special styling for sponsor name+logo
 */
-.sponsor > img {
+.sponsor {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.sponsor .logo {
   height: 2rem;
   display: inline-block;
   margin: .3rem 0;
 }
 
-.sponsor > span {
-  font-size: 1.6rem;
+.sponsor .name {
   margin: 0 0 0 1rem;
   vertical-align: top;
 }
