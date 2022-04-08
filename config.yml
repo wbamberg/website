@@ -39,3 +39,5 @@ params:
           url: "https://github.com/openwebdocs"
         - name: twitter
           url: "https://twitter.com/OpenWebDocs"
+    defaultTheme: auto
+    disableThemeToggle: true
