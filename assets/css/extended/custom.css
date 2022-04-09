@@ -1,8 +1,6 @@
 /*
 Styling the logo
 */
-@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400;600&display=swap');
-
 .logo-text {
   font-family: Anek Malayalam, sans-serif;
   font-weight: 200;
