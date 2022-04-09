@@ -1,4 +1,20 @@
 /*
+Styling the logo
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400;600&display=swap');
+
+.logo-text {
+  font-family: Anek Malayalam, sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.logo-text-inner {
+  color: #7d19aa;
+  font-weight: 400;
+}
+
+/*
 Footer content is 2 lines, so height should be calculated as `(var(--gap) * 2`
 */
 .footer {
