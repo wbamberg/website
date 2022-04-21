@@ -149,7 +149,7 @@ Two additional things made the MDN event reference worse and lead to further pag
 * [Event bubbling](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling_and_capture), which makes events available on a whole hierarchy of objects
 * [Mixins](https://developer.mozilla.org/en-US/docs/Glossary/Mixin) that define the same event handlers on numerous objects.
 
-The goal of this [Open Web Docs project ](https://github.com/openwebdocs/project/issues/61)was to avoid event page duplication, as well as to harmonize and simplify the description of events in the context of their target objects.
+The goal of this [Open Web Docs project](https://github.com/openwebdocs/project/issues/61) was to avoid event page duplication, as well as to harmonize and simplify the description of events in the context of their target objects.
 
 The [first part of this project](https://github.com/mdn/browser-compat-data/issues/14578) was to update the compatibility data in BCD with the idea that only one entry, named `eventname_event` is added to the BCD data going forward. There is no longer a separate entry for the `onEventName` property. In case of bubbling events, the entry is placed on the top-most interface of the hierarchy. And for mixins (which we had already mostly removed from MDN and BCD in 2021), the event support is documented on the most relevant interface (e.g. `Window` for `WindowEventHandlers`).
 
@@ -159,7 +159,7 @@ We eliminated roughly 300-400 pages of contradictory information by documenting 
 
 Going forward, this creates a good foundation and a more structured approach to documenting more events on MDN in the future. MDN contributors now understand better how to document events and for readers, the relevant information is more concise and presented in a much clearer way. In the future, we would like to define this _MDN documentation page type_ for web platform events even more so that tooling around mdn/content and mdn/browser-compat-data can work with it smoothly.
 
-This project was driven by Florian Scholz, Jean-Yves Perrier, and Vinyl Da.i'gyu-Kazotetsu. We like to note that it would have been impossible to do this project without the help of [Philip Jägenstedt](https://twitter.com/foolip?lang=de), who originally proposed many of these changes. Philip not only provided us with his deep web platform knowledge, his input was also essential to solve many weird edge cases and to understand some legacy behaviors that made the rest of us want to give up. Thank you, Philip!
+This project was driven by Florian Scholz, Jean-Yves Perrier, and Vinyl Da.i'gyu-Kazotetsu. We like to note that it would have been impossible to do this project without the help of [Philip Jägenstedt](https://twitter.com/foolip), who originally proposed many of these changes. Philip not only provided us with his deep web platform knowledge, his input was also essential to solve many weird edge cases and to understand some legacy behaviors that made the rest of us want to give up. Thank you, Philip!
 
 
 ### WAI-ARIA Web Accessibility Documentation
