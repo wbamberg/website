@@ -48,7 +48,7 @@ Especially the removal of `var` is a substantial improvement to MDN Web Docs. [O
 
 We learned, first, what we already knew, that Write the Docs attendees are welcoming, engaging, generous, and generally a pleasure to work with.
 
-Many attendees did not have previous experience of working with GitHub, the PR model, or docs under source control. It was really helpful to have an introductory session about this. As it turned out, the technical side went really smoothly. People quickly understood how to use the tools and were able to be very productive. It might have been worth spending more time up front exploring other tools, which would enable people to submit fewer, larger PRs: a limitation of the GitHub UI is that each PR can only include one file. In general it's worth organizers explicitly considering what they are giving back to attendees in terms of learning how to use these tools.
+Many attendees did not have previous experience of working with GitHub, the PR model, or docs under source control. It was helpful to have an introductory session about this. As it turned out, the technical side went smoothly. People quickly understood how to use the tools and were able to be very productive. It might have been worth spending more time up front exploring other tools, which would enable people to submit fewer, larger PRs: a limitation of the GitHub UI is that each PR can only include one file. In general it's worth organizers explicitly considering what they are giving back to attendees in terms of learning how to use these tools.
 
 Successful projects tend to be ones that are well-defined and fine-grained, meaning that even a small contribution can be complete and useful.
 
