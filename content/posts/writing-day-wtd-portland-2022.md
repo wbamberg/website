@@ -7,7 +7,7 @@ ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-Open Web Docs hosted a session at the Writing Day during the Portland 2022 edition of the Write the Docs conference. In this post we'll talk about what we worked on and how it went.
+Open Web Docs hosted a session at the [Writing Day](https://www.writethedocs.org/conf/portland/2022/writing-day/) during the [Portland 2022 edition of the Write the Docs conference](https://www.writethedocs.org/conf/portland/2022/). In this post we'll talk about what we worked on and how it went.
 
 Write the Docs is a conference for people involved with all aspects of documentation, including writers, developers, editors, information architects and so on. It happens twice a year, once in Portland and once in Prague. The Sunday before the main conference is the "Writing Day", when people come to work on open source documentation projects.
 
@@ -42,7 +42,7 @@ At the end of it:
 - we cleaned `var` from 254 pages in the JavaScript reference
 - we added sidebars to all pages under https://developer.mozilla.org/en-US/docs/Web/API that were missing a sidebar, with the exception of only four, which all need more complex fixes.
 
-Especially the removal of `var` is a substantial improvement to MDN Web Docs. Our own documentation advises against the use of `var`, so it's very misleading for our JavaScript examples to use it, and the work of our volunteers made a big step towards removing it completely.
+Especially the removal of `var` is a substantial improvement to MDN Web Docs. [Our own documentation advises against the use of `var`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#a_note_about_var), so it's very misleading for our JavaScript examples to use it, and the work of our volunteers made a big step towards removing it completely.
 
 ## What we learned
 
