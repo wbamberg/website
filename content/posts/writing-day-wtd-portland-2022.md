@@ -22,7 +22,7 @@ We prepared a few projects for participants. The two that resonated most with pe
 
 ### Removing var
 
-In the old days JavaScript used `var` to declare variables. For a long time now this is considered bad practice, and it's recommended that people should use `let` or `const` instead. In early 2022 Open Web Docs updated the JavaScript Learn documentation on MDN to replace usages of `var` in code examples, but we didn't yet update the JavaScript reference documentation.
+In the old days JavaScript used [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) to declare variables. For a long time now this is considered bad practice, and it's recommended that people should use [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) or [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) instead. In early 2022 Open Web Docs updated the JavaScript Learn documentation on MDN to replace usages of `var` in code examples, but we didn't yet update the JavaScript reference documentation.
 
 In preparation for Writing Day we made a list of 300 pages that mentioned `var`, and asked attendees to replace it with `let` or `const` as appropriate.
 
