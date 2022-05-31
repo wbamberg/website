@@ -39,7 +39,7 @@ From then the session was very quiet, as volunteers worked hard all day filing G
 Many people stayed for the whole day and filed dozens of PRs.
 
 At the end of it:
-- we cleaned `var` from 254 pages in the JavaScript reference
+- we cleaned `var` from 254 pages in the JavaScript reference, out of 300 pages that were using it
 - we added sidebars to all pages under https://developer.mozilla.org/en-US/docs/Web/API that were missing a sidebar, with the exception of only four, which all need more complex fixes.
 
 Especially the removal of `var` is a substantial improvement to MDN Web Docs. [Our own documentation advises against the use of `var`](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#a_note_about_var), so it's very misleading for our JavaScript examples to use it, and the work of our volunteers made a big step towards removing it completely.
@@ -50,11 +50,13 @@ We learned, first, what we already knew, that Write the Docs attendees are welco
 
 Many attendees did not have previous experience of working with GitHub, the PR model, or docs under source control. It was helpful to have an introductory session about this. As it turned out, the technical side went smoothly. People quickly understood how to use the tools and were able to be very productive. It might have been worth spending more time up front exploring other tools, which would enable people to submit fewer, larger PRs: a limitation of the GitHub UI is that each PR can only include one file. In general it's worth organizers explicitly considering what they are giving back to attendees in terms of learning how to use these tools.
 
-Successful projects tend to be ones that are well-defined and fine-grained, meaning that even a small contribution can be complete and useful.
+Successful projects tend to be ones that are well-defined and fine-grained, meaning that even a small contribution can be complete and useful. Next time we would like to prepare some projects which allow volunteers to engage more deeply with the content, but it's challenging to do that while still keeping projects accessible.
 
 ## What's next?
 
-We're going to continue the project to remove `var` across all of MDN, by filing a tracking issue listing affected pages, so that volunteers and staff can gradually work through them.
+We've felt quite inspired by the progress our volunteers made towards cleaning `var` from our documentation, and have filed [a tracking issue to finish removing `var` from our JavaScript pages](https://github.com/mdn/content/issues/16614), and [another one to remove it from our Web/API pages](https://github.com/mdn/content/issues/16662), so that volunteers and staff can finish the work.
+
+We'd also like to consider how we could help writers who are new to Git and GitHub learn how to work with these tools.
 
 ## Thanks!
 
